@@ -24,7 +24,7 @@ describe("Find missing number two lists: ", function() {
       expect(findMissing([1, 2], [1, 2, 5])).toEqual(5);
     });
     it("should return 45 for [12, 5, 9, 3, 77, 45], [77, 3, 5, 12, 9]", function() {
-      expect(findMissing([12, 5, 9, 3, 77, 45], [77, 3, 5, 12, 9])).toEqual(45);
+      expect(findMissing([12, 5, 9, 3, 77], [77, 3, 5, 12, 9, 45])).toEqual(45);
     })
     it("should return 10 for [4, 6, 8],[4, 6, 8, 10]", function() {
       expect(findMissing([4, 6, 8], [4, 6, 8, 10])).toEqual(10);
